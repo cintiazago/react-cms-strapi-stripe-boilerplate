@@ -11,6 +11,7 @@
     "test": "jest --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
     "test:ci": "jest --runInBand",
+    "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"
   },
@@ -59,6 +60,7 @@
     "jest-environment-jsdom": "^29.3.1",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^13.1.0",
+    "plop": "^3.1.1",
     "prettier": "2.8.0"
   }
 }
